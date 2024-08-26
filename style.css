@@ -10,12 +10,19 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
 .navbar{
     height: 90px;
     width: 100%;
     display: flex;
     align-items: center;
+    background-color: white;
     justify-content: space-around;
+
 
 }
 
@@ -158,6 +165,135 @@ main h1{
     margin-left: 15px;
     gap: 10px;
 }
+
+section{
+    width: 100%;
+
+}
+
+.offer-section{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(203, 203, 203), 0px 2px 5px rgb(213, 213, 213);
+    margin-top: -70px;
+    overflow-x: auto; /* Enable horizontal scrolling on the section */
+    padding: 10px 0; /* Optional padding */
+
+
+}
+
+
+
+.offer-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.offer-top h3{
+    font-size: 25px;
+}
+
+.offer-top button{
+    color: #1034d9;
+    padding: 10px 18px;
+    font-size: 15px;
+    border: 1px solid rgb(107, 107, 107);
+    border-radius: 30px;
+    background-color: white;
+    font-weight: 600;
+}
+
+.offer-top button:hover{
+    box-shadow: 2px 2px 10px rgb(182, 182, 182);
+}
+
+.offers{
+    display: flex; /* Arrange items in a row */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-y: hidden; /* Hide vertical scroll */
+    padding: 10px; /* Optional padding */
+    gap: 12px; /* Space between offers */
+    scroll-behavior: smooth; /* Smooth scrolling */
+
+}
+.offers::-webkit-scrollbar{
+    width: 0;
+}
+
+.offer{
+    width: 300px;
+    height: 160px;
+    border: 1px solid black;
+    display: flex;
+    margin: 0 12px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    flex-shrink: 0; /* Prevent shrinking of the offer items */
+}
+
+.offer img{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.right p:nth-child(1){
+    width: 40px;
+    background-color: rgba(228, 228, 228, 0.388);
+    border-radius: 20px;
+    padding: 2px 8px;
+    font-size: 13px;
+    color: white;
+}
+.right p:nth-child(2){
+    color: white;
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.right p:nth-child(3){
+    color: white;
+    font-size: 11px;
+}
+
+
+.right p:nth-child(4){
+    color: white;
+    width: 55px;
+    margin-top: 10px;
+    padding: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+
+
+
+
+
+.offer1{
+    background-image: linear-gradient(to right, #134195 , #376dcd);
+}
+.offer2{
+    background-image: linear-gradient(to right, #2C4D6B , #4ABA8E);
+}
+.offer3{
+    background-image: linear-gradient(to right, #1C8253 , #64D8A1);
+}
+.offer4{
+    background-image: linear-gradient(to right, #2389A2 , #60C7DF);
+}
+.offer5{
+    background-image: linear-gradient(to right, #D4800E , #F8B65D);
+}
+
 
 
 
