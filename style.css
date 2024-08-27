@@ -337,7 +337,7 @@ section{
 }
 
 .govt-buses::-webkit-scrollbar{
-    width: 0;
+    width: 0; 
 }
 
 .upper{
@@ -362,6 +362,8 @@ section{
 }
 
 .rating p{
+    display: flex;
+    align-items: center;
     background-color: #1C8253;
     padding: 0 4px 0 4px;
     border-radius: 5px;
@@ -374,13 +376,7 @@ section{
 
 
 
-.material-symbols-outlined{
-    font-family: "material-symbols-outlined";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 12px !important;
 
-}
 .middle p{
     padding: 20px 80px 20px 80px;
     font-size: 15px;
@@ -417,6 +413,24 @@ section{
     margin-bottom: -20px; 
     z-index: -1;
 } 
+
+
+
+/* custom scroll bar */
+
+.scrollable-element::-webkit-scrollbar{
+    width: 10px; 
+}
+
+.scrollable-element::-webkit-scrollbar-track{
+    background-color: white;
+
+}
+
+.scrollable-element::-webkit-scrollbar-thumb{
+    background-color: #d84e55;
+    border-radius: 20px;
+}
 
 
 
