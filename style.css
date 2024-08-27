@@ -14,6 +14,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 100;
+    box-shadow: 2px 0 5px gray;
 }
 .navbar{
     height: 90px;
@@ -100,11 +101,13 @@ header{
 .help{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .account{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 main{
@@ -138,7 +141,7 @@ main h1{
 .search{
     background-color: #d84e55;
     padding-top: 46px;
-    padding-bottom: 46px;
+    padding-bottom: 40px;
     padding-left: 20px;
     color: white;
     font-weight: 600;
@@ -188,17 +191,17 @@ section{
 
 
 
-.offer-top{
+.title-top{
     display: flex;
     justify-content: space-between;
     margin: 25px;
 }
 
-.offer-top h3{
+.title-top h3{
     font-size: 25px;
 }
 
-.offer-top button{
+.title-top button{
     color: #1034d9;
     padding: 10px 18px;
     font-size: 15px;
@@ -208,15 +211,15 @@ section{
     font-weight: 600;
 }
 
-.offer-top button:hover{
+.title-top button:hover{
     box-shadow: 2px 2px 10px rgb(182, 182, 182);
 }
 
 .offers{
     display: flex; /* Arrange items in a row */
-    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-x:auto; /* Enable horizontal scrolling */
     overflow-y: hidden; /* Hide vertical scroll */
-    padding: 10px; /* Optional padding */
+    padding: 10px ; /* Optional padding */
     gap: 12px; /* Space between offers */
     scroll-behavior: smooth; /* Smooth scrolling */
 
@@ -265,13 +268,14 @@ section{
 
 .right p:nth-child(4){
     color: white;
-    width: 55px;
+    width: fit-content;
     margin-top: 10px;
-    padding: 3px;
+    padding: 3px 8PX;
     font-size: 15px;
     font-weight: 600;
-    border: 1px dashed black;
-    border-radius: 10px;
+    border: 1px dashed rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgba(214, 214, 214, 0.155);
 }
 
 
@@ -285,14 +289,135 @@ section{
     background-image: linear-gradient(to right, #2C4D6B , #4ABA8E);
 }
 .offer3{
-    background-image: linear-gradient(to right, #1C8253 , #64D8A1);
+    background-image: linear-gradient(to right, #5C0B0F , #BE4147);
 }
 .offer4{
-    background-image: linear-gradient(to right, #2389A2 , #60C7DF);
+    background-image: linear-gradient(to right, #1C8253 , #64D8A1);
 }
 .offer5{
+    background-image: linear-gradient(to right, #2389A2 , #60C7DF);
+}
+.offer6{
     background-image: linear-gradient(to right, #D4800E , #F8B65D);
 }
+
+.govt-bus{
+    width: 90%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title-top h2{
+    font-size: 35px;
+    font-weight: 500;
+}
+.all-govt-buses{
+    display: flex;
+    overflow-x: auto;
+    padding: 30px;
+    overflow-y: hidden; /* Hide vertical scroll */
+    gap: 22px; /* Space between offers */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.all-govt-buses::-webkit-scrollbar{
+    width: 0;
+}
+
+.govt-buses{
+    height: 200px;
+    width: 480px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 5px rgb(183, 183, 183);
+    background-color: white;
+    flex-shrink: 0; /* Prevent shrinking of the offer items */
+
+
+
+}
+
+.govt-buses::-webkit-scrollbar{
+    width: 0;
+}
+
+.upper{
+    display: flex;
+    height: 80px;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.upper img{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+}
+
+
+.rating{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.rating p{
+    background-color: #1C8253;
+    padding: 0 4px 0 4px;
+    border-radius: 5px;
+    color: white;
+}
+.upper h4{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+
+.material-symbols-outlined{
+    font-family: "material-symbols-outlined";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px !important;
+
+}
+.middle p{
+    padding: 20px 80px 20px 80px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.lower{
+    display: flex;
+    margin: 0 40px;
+    background-color: #F2F2F8;
+    border-radius: 10px;
+    padding: 4px 65px;
+    font-size: 14px;
+
+}
+
+
+.lower img {
+    height: 16px;
+    width: 25px;
+    margin-right: 5px;
+}
+ 
+
+.f-offer{
+    height: 50x;
+    position: relative;
+    text-align: center;
+    background-color: #FAE9EA;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 25px 0 8px 0;
+    margin-bottom: -20px; 
+    z-index: -1;
+} 
+
 
 
 
