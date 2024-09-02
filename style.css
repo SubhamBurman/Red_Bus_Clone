@@ -434,20 +434,22 @@
 
     .train-ticket-section{
 
-        width: 80%;
+        width: 90%;
         margin-left: auto;
-        margin-right: auto;
         margin-top: 60px;
         display: flex;
 
     }
-
+    
     .train-left h1{
-        font-size: 40px;
+        font-size: 35px;
         line-height: 60px;
-        font-weight: 200;
-        margin: 20px 60px 20px 0px;
+        font-weight: 400;
+        margin: 20px 0 20px 0px;
 
+    }
+    .train-left h1 span{
+       font-weight: 700;
     }
 
     .train-ticket-heading{
@@ -466,15 +468,25 @@
 .line{
     border-bottom: 4px solid #d84e55;
     width: 220px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .train-left p{
-    font-size: 15px;
-    line-height: 40px;
+    font-size: 12px;
+    line-height: 30px;
     color: rgb(124, 124, 124);
     margin-right: 100px;
     
+}
+
+.train-features{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.train-features p{
+    line-height: 50px;
+    font-weight: 700;
+    color: black;
 }
 .train-ticket-heading p{
     color: #BE4147;
@@ -485,7 +497,10 @@
     align-items: center;
     gap: 20px;
 
+
 }
+
+
 
 .train-ticket-button{
     display: flex;
@@ -583,6 +598,155 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+.banner-container{
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.banner-left img{
+    border-radius: 30px;
+}
+
+.banner-right{
+    background-color: #233058;
+    border-radius: 30px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    gap: 40px;
+    padding: 80px 40px;
+    margin-left: -100px;
+}
+.banner-key-points{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.key-point h4{
+    font-size: 27px;
+}
+
+
+.global-presence{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 100PX;
+}
+
+.countries{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.country{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    gap: 20px;
+}
+
+.country img{
+    height: 100px;
+}
+
+.doc-container{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.doc-container h1{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 30px;
+   
+}
+
+.doc-container p{
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.doc-container p span{
+    color: blue;
+}
+
+.reddeals-container{
+    width: 80%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reddeals-container h1{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 20px;
+   
+}
+
+.reddeal-offer{
+    width: 100%;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 20px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.deal-offer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.deal-offer img{
+    height: 30px;
+    
+}
+
+.deal-offer h2{
+    font-size: 22px ;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.deal-offer p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.deal-offer span{
+    color: #D84E55;
+}
+
+.reddeal-offer button{
+    background-color: #D84E55;
+    border: none;
+    padding: 0 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
 
 
 
