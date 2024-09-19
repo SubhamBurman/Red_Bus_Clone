@@ -1,3 +1,3 @@
-*Red Bus Clone*
+**Red Bus Clone**
 
-This repo is for redbus clone project of pw hello
+This repo is for redbus clone project of PW-Skills
