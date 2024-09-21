@@ -4,4 +4,4 @@ This repo is for redbus clone project of PW-Skills
 
 ***Outputs***
 
-<img src="Redbus output/1.jpeg" alt="output 1" >
+<img src="Redbus output/1.png" alt="output 1" >
